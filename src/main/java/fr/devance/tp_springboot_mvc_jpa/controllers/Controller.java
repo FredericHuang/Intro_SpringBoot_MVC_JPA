@@ -11,7 +11,7 @@ public class Controller {
     }
 
     @RequestMapping("/")
-    public String getTemp(Model model){
+    public String getTemplate1(Model model){
         model.addAttribute("name","capteur de température");
         return "template1";
     }
